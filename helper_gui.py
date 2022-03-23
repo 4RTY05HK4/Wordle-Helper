@@ -68,6 +68,7 @@ def filter_list():
         flag_not_in = False
         pos_correct = True
 
+
 try:
     file = open("complete_wordle.txt")
 except FileNotFoundError:
@@ -82,7 +83,7 @@ main_frame = Tk()
 main_frame.geometry("400x400")
 
 var = StringVar()
-var.set("WORDLE!!!")
+var.set("Highest possibility words:\n-arose\n-until\n")
 
 frame_left = Frame(main_frame)
 frame_left.pack(side=LEFT)
